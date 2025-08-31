@@ -1,0 +1,235 @@
+.app {
+
+max-width: 1200px;
+
+margin: 0 auto;
+
+padding: 20px;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+h1 {
+
+color: #2c3e50;
+
+text-align: center;
+
+margin-bottom: 30px;
+
+font-size: 2.5rem;
+
+}
+
+.product-list {
+
+  display: grid;
+
+  gap: 15px;
+
+  margin-top: 20px;
+
+
+}
+
+.product-list > div {
+
+background: #f8f9fa;
+
+padding: 15px;
+
+border-radius: 8px;
+
+border-left: 4px solid #007bff;
+
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.modal-overlay {
+
+  position: fixed;
+
+top: 0;
+
+left: 0;
+
+right: 0;
+
+bottom: 0;
+
+background: rgba(0, 0, 0, 0.5);
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+
+}
+
+.modal {
+
+background: white;
+
+padding: 30px;
+
+border-radius: 8px;
+
+box-shadow: 0 4px 20px rgba(0, 0, 0,0.15);
+
+max-width: 500px;
+
+width: 90%;
+
+}
+
+.add-button {
+
+background: #007bff;
+
+color: rgb(169, 26, 26);
+
+border: none;
+
+padding: 12px 24px;
+
+border-radius: 6px;
+
+font-size: 16px;
+
+cursor: pointer;
+
+margin-bottom: 35px;
+
+margin-right: 10px;
+
+
+}
+
+.add-button:hover {
+
+background: #0056b3;
+
+
+transform: translateY(-1px);
+
+
+
+}
+
+.modal input {
+  width: 100%;
+
+  padding: 10px;
+
+  margin-bottom: 15px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 4px;
+
+  font-size: 16px;
+  
+  margin-bottom: 20px;
+}
+
+.product-list div {
+
+font-size: 16px;
+
+color: rgb(67, 108, 192);
+
+font-weight: 500;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+}
+
+.product-list button {
+
+background: #65121b;
+
+color: white;
+
+border: none;
+
+padding: 8px 14px;
+
+border-radius: 4px;
+
+cursor: pointer;
+
+font-size: 14px;
+
+}
+
+.product-list button:hover {
+
+  background: #c82333;
+
+  transform: scale(1.05);
+
+}
+
+
+.low-stock {
+  
+  color: #dc3545;
+
+  
+}
+
+.category-filters {
+
+display: flex;
+
+gap: 10px;
+
+margin-bottom: 20px;
+
+
+}
+
+.category-filters button {
+
+padding: 8px 16px;
+
+border: 2px solid #000000;
+
+background: rgb(0, 0, 0);
+
+color: #007bff;
+
+border-radius: 4px;
+
+cursor: pointer;
+
+font-size: 14px;
+
+}
+
+.category-filters button.active {
+
+background: #007bff;
+
+
+color: white;
+
+
+}
+
+.category-filters button:hover {
+
+background: #e6f3ff;
+
+}
+
